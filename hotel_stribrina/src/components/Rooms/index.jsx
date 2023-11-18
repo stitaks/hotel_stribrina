@@ -8,12 +8,13 @@ export const Rooms = () => {
         const fetchRooms = async () => {
           const response = await fetch('http://localhost:4000/api/rooms');
           const data = await response.json();
-          setRooms(data);
+          setRooms(data.result);
         };
     
         fetchRooms();
       }, []);
       
+      const cardRooms = rooms.map((room) => {<Card room = {room}/>})
 
     return (
         <section className="dark">
@@ -22,12 +23,7 @@ export const Rooms = () => {
             <p>
                 Vyberte si, který z pokojů je pro vás ten pravý.
             </p>
-                {rooms.map((room) => {
-                    return (
-                        <Card room = {room}/>
-                    )
-                })
-                }
+                {cardRooms}
             </div>
         </section>
     )

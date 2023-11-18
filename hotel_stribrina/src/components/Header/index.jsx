@@ -3,7 +3,7 @@ import './style.css';
 
 export const Header = () => {
     return (
-        <div class="banner">
+        <div className="banner">
     <div className="banner__stripe">
       <div className="container">
         <h1>Hotel Stříbrava</h1>
