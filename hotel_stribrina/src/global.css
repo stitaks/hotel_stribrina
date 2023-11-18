@@ -13,20 +13,7 @@ body {
   padding: 0;
 }
 
-.container {
-  max-width: 960px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
 
-@media screen and (min-width: 740px) {
-  .container {
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-}
 
 section {
   padding: 2rem 0;
@@ -67,11 +54,7 @@ section.light {
   background-color: #e8e9f3;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  border-radius: 0.5rem;
-}
+
 
 
 
