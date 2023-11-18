@@ -4,6 +4,7 @@
     margin-left: auto;
     padding-right: 1rem;
     padding-left: 1rem;
+    /* background-image: url('../../images/hotel.jpg') ; */
   }
   
   @media screen and (min-width: 740px) {
@@ -16,7 +17,7 @@
   .banner {
     width: 100%;
     aspect-ratio: 16/9;
-    background-image: url(./img/image2.svg);
+    /* background-image: url(./img/image2.svg); */
     background-size: cover;
     text-align: center;
   }
@@ -52,8 +53,8 @@
     }
   }
 
-  img {
+  /* img {
     width: 100vh;
     height: auto;
     border-radius: 0.5rem;
-  }
+  } */

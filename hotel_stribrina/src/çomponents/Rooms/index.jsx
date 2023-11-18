@@ -14,8 +14,8 @@ export const Rooms = () => {
       }, []);
 
     return (
-        <section class="dark">
-            <div class="container">
+        <section className="dark">
+            <div className="container">
             <h2>Pokoje</h2>
             <p>
                 Vyberte si, který z pokojů je pro vás ten pravý.
