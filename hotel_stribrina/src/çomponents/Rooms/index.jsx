@@ -20,7 +20,12 @@ export const Rooms = () => {
             <p>
                 Vyberte si, který z pokojů je pro vás ten pravý.
             </p>
-            < Card />
+                {rooms.map((room) => {
+                    return (
+                        <Card room = {room}/>
+                    )
+                })
+                }
             </div>
         </section>
     )
