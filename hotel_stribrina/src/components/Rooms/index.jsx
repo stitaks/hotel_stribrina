@@ -1,17 +1,19 @@
+import { useState, useEffect } from "react";
 import { Card } from "../Card"
 
 export const Rooms = () => {
 
-    const rooms = [];
+    const [rooms, setRooms] = useState([]);
     useEffect(() => {
         const fetchRooms = async () => {
           const response = await fetch('http://localhost:4000/api/rooms');
           const data = await response.json();
-          rooms = data;
+          setRooms(data);
         };
     
         fetchRooms();
       }, []);
+      
 
     return (
         <section class="dark">
