@@ -11,6 +11,8 @@
     .container {
       padding-right: 2rem;
       padding-left: 2rem;
+      text-align: center;
+      
     }
   }
 
@@ -53,8 +55,8 @@
     }
   }
 
-  /* img {
+  img {
     width: 100vh;
     height: auto;
     border-radius: 0.5rem;
-  } */
+  }

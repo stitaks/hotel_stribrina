@@ -14,7 +14,7 @@ export const Rooms = () => {
         fetchRooms();
       }, []);
       
-      const cardRooms = rooms.map((room) => {<Card room = {room}/>})
+    
 
     return (
         <section className="dark">
@@ -23,7 +23,7 @@ export const Rooms = () => {
             <p>
                 Vyberte si, který z pokojů je pro vás ten pravý.
             </p>
-                {cardRooms}
+                {rooms.map((room) => <Card room = {room}/>)}
             </div>
         </section>
     )
